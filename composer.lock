@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "1c38ef8e776056e8f6abec9db8f65b55",
-    "content-hash": "f595acd737d301ab1d4acf26b23b5149",
+    "hash": "099002fecc546620cc0fbe4c2733d25b",
+    "content-hash": "d2fe05ca3f9c8ad70a0094433433209f",
     "packages": [
         {
             "name": "composer/installers",
@@ -259,6 +259,26 @@
                 "fancyguy/webroot-installer": "1.1.0"
             },
             "type": "webroot"
+        },
+        {
+            "name": "wpackagist-plugin/amazon-ses-and-dkim-mailer",
+            "version": "1.7",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/amazon-ses-and-dkim-mailer/",
+                "reference": "tags/1.7"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/amazon-ses-and-dkim-mailer.1.7.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/amazon-ses-and-dkim-mailer/"
         },
         {
             "name": "wpackagist-plugin/ewww-image-optimizer",
