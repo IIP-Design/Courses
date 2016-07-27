@@ -1,0 +1,29 @@
+# Wordpress
+wp/
+wp-content/cache
+wp-content/languages
+wp-content/plugins
+wp-content/themes
+wp-content/uploads
+wp-content/debug.log
+
+# wp-cli
+wp-cli.yml
+wp-cli.local.yml
+
+# wordpress-mu-domain-mapping
+wp-content/sunrise.php
+
+# wordpress-query-monitor
+wp-content/db.php
+
+# Composer
+vendor
+
+# OS generated files #
+######################
+.DS_Store
+.DS_Store?
+.Trashes
+Thumbs.db
+*.scssc
