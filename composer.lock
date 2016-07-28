@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "099002fecc546620cc0fbe4c2733d25b",
-    "content-hash": "d2fe05ca3f9c8ad70a0094433433209f",
+    "hash": "76de1927249e3e7f8d9b3723e86e3384",
+    "content-hash": "8498c1f91648145ca457d63ec2f8382b",
     "packages": [
         {
             "name": "composer/installers",
@@ -164,11 +164,11 @@
         },
         {
             "name": "iip-design/courses-custom-posts",
-            "version": "1.0.0",
+            "version": "1.0.1",
             "source": {
                 "type": "git",
                 "url": "git@github.com:IIP-Design/courses-custom-posts.git",
-                "reference": "e865e9b6f3e3c1b6770c0117efc53659837971e9"
+                "reference": "9548f55b94303654f6a76f80419cdbeac90dfee5"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -181,7 +181,7 @@
                 }
             ],
             "description": "A WordPress plugin that will create a custom post type to create courses.",
-            "time": "2016-07-27 17:38:46"
+            "time": "2016-07-28 15:48:39"
         },
         {
             "name": "koodimonni/composer-dropin-installer",
