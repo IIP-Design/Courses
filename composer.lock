@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "76de1927249e3e7f8d9b3723e86e3384",
-    "content-hash": "8498c1f91648145ca457d63ec2f8382b",
+    "hash": "5b04f7bf3f0bd802abc1db59641bf77b",
+    "content-hash": "7650e1094e3c6447085d28fcd38bfb2a",
     "packages": [
         {
             "name": "composer/installers",
@@ -149,8 +149,8 @@
             "version": "v2.7.1",
             "source": {
                 "type": "git",
-                "url": "git@github.com:IIP-Design/corona.git",
-                "reference": "f3ce1629538a9108f0bc87148a3965013fc9497f"
+                "url": "git@github.com:IIP-Design/corona-theme.git",
+                "reference": "ebd5a7fa33c131ec2231fc9f344d2fa1df3466f8"
             },
             "require": {
                 "composer/installers": "v1.0.21"
@@ -160,7 +160,7 @@
                 "MIT"
             ],
             "description": "A Wordpress base theme",
-            "time": "2016-06-28 15:54:01"
+            "time": "2016-08-15 17:02:53"
         },
         {
             "name": "iip-design/courses-custom-posts",
