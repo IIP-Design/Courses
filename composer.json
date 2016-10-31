@@ -29,20 +29,32 @@
             "url": "git@github.com:IIP-Design/courses-custom-posts.git"
         },
         {
+
+            "type": "git",
+            "url": "git@github.com:IIP-Design/america-wp-rest-api.git"
+        },
+        {
             "type": "git",
             "url": "git@github.com:IIP-Design/corona-theme.git"
+        },
+        {
+            "type": "git",
+            "url": "git@github.com:humanmade/S3-Uploads.git"
         }
     ],
     "require": {
         "wordpress": "4.5.3",
         "fancyguy/webroot-installer": "1.1.0",
         "koodimonni/composer-dropin-installer": "1.0",
-        "usstatedept/wp-hide-login-form": "1.0.1",
+        "humanmade/s3-uploads": "dev-master",
+        "iip-design/america-wp-rest-api": "1.0.0",
         "iip-design/corona": "2.7.1",
-        "iip-design/courses-custom-posts": "1.0.1",
+        "iip-design/courses-custom-posts": "1.1.0",
+        "usstatedept/wp-hide-login-form": "1.0.1",
         "wpackagist-plugin/amazon-ses-and-dkim-mailer": "1.7",
         "wpackagist-plugin/ewww-image-optimizer": "2.9.3",
         "wpackagist-plugin/google-apps-login": "2.9.7",
+        "wpackagist-plugin/rest-api": "2.0-beta14",
         "wpackagist-plugin/wordpress-mu-domain-mapping": "0.5.5.1"
         },
     "extra": {

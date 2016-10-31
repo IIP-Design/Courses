@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "5b04f7bf3f0bd802abc1db59641bf77b",
-    "content-hash": "7650e1094e3c6447085d28fcd38bfb2a",
+    "hash": "92ea7d9c2734a9b5d3fd327c38eea25b",
+    "content-hash": "d4eea39aa7df9076b8b4eb736cce3303",
     "packages": [
         {
             "name": "composer/installers",
@@ -145,6 +145,60 @@
             "time": "2013-03-15 17:51:14"
         },
         {
+            "name": "humanmade/s3-uploads",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:humanmade/S3-Uploads.git",
+                "reference": "508239ba6afb1ee4191a6f61c6d0c1834aca9b21"
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "Human Made Limited",
+                    "email": "support@humanmade.co.uk",
+                    "homepage": "http://hmn.md/"
+                }
+            ],
+            "description": "WordPress plugin to store uploads on S3",
+            "homepage": "https://github.com/humanmade/S3-Uploads",
+            "keywords": [
+                "wordpress"
+            ],
+            "support": {
+                "issues": "https://github.com/humanmade/s3-uploads/issues",
+                "source": "https://github.com/humanmade/s3-uploads"
+            },
+            "time": "2016-09-21 19:46:55"
+        },
+        {
+            "name": "iip-design/america-wp-rest-api",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:IIP-Design/america-wp-rest-api.git",
+                "reference": "15b67700fb42197dc43f43d8fd1befca394de09f"
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "authors": [
+                {
+                    "name": "Office of Design, Bureau of International Information Programs",
+                    "email": "gustassj@america.gov"
+                }
+            ],
+            "description": "Creates a custom namespace and endpoints to extend the WP REST API as the America API.",
+            "time": "2016-10-31 19:49:02"
+        },
+        {
             "name": "iip-design/corona",
             "version": "v2.7.1",
             "source": {
@@ -164,11 +218,11 @@
         },
         {
             "name": "iip-design/courses-custom-posts",
-            "version": "1.0.1",
+            "version": "1.1.0",
             "source": {
                 "type": "git",
                 "url": "git@github.com:IIP-Design/courses-custom-posts.git",
-                "reference": "9548f55b94303654f6a76f80419cdbeac90dfee5"
+                "reference": "dba1499c572fd885e1c597c50d1ec8830d9e9d2f"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -181,7 +235,7 @@
                 }
             ],
             "description": "A WordPress plugin that will create a custom post type to create courses.",
-            "time": "2016-07-28 15:48:39"
+            "time": "2016-10-31 19:46:57"
         },
         {
             "name": "koodimonni/composer-dropin-installer",
@@ -321,6 +375,26 @@
             "homepage": "https://wordpress.org/plugins/google-apps-login/"
         },
         {
+            "name": "wpackagist-plugin/rest-api",
+            "version": "2.0-beta14",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/rest-api/",
+                "reference": "tags/2.0-beta14"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/rest-api.2.0-beta14.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/rest-api/"
+        },
+        {
             "name": "wpackagist-plugin/wordpress-mu-domain-mapping",
             "version": "0.5.5.1",
             "source": {
@@ -344,7 +418,10 @@
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": [],
+    "stability-flags": {
+        "humanmade/s3-uploads": 20,
+        "wpackagist-plugin/rest-api": 10
+    },
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": [],
