@@ -30,6 +30,20 @@ define('LOGGED_IN_SALT',   getenv('COURSES_LOGGED_IN_SALT'));
 define('NONCE_SALT',       getenv('COURSES_NONCE_SALT'));
 
 
+/** AWS S3 Uploads directory **/
+if ( isset( $_SERVER['COURSES_S3_UPLOADS_BUCKET'] ) ) {
+  define('S3_UPLOADS_BUCKET', getenv('COURSES_S3_UPLOADS_BUCKET'));
+}
+if ( isset( $_SERVER['COURSES_S3_UPLOADS_KEY'] ) ) {
+  define('S3_UPLOADS_KEY', getenv('COURSES_S3_UPLOADS_KEY'));
+}
+if ( isset( $_SERVER['COURSES_S3_UPLOADS_SECRET'] ) ) {
+  define('S3_UPLOADS_SECRET', getenv('COURSES_S3_UPLOADS_SECRET'));
+}
+if ( isset( $_SERVER['COURSES_S3_UPLOADS_REGION'] ) ) {
+  define('S3_UPLOADS_REGION', getenv('COURSES_S3_UPLOADS_REGION'));
+}
+
 $table_prefix = 'wp_';
 
 
