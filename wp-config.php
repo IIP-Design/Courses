@@ -1,6 +1,5 @@
 <?php
 
-
 // ** MySQL settings ** //
 /** The name of the database for WordPress */
 define('DB_NAME', getenv('COURSES_DB_NAME'));
@@ -29,10 +28,12 @@ define('SECURE_AUTH_SALT', getenv('COURSES_SECURE_AUTH_SALT'));
 define('LOGGED_IN_SALT',   getenv('COURSES_LOGGED_IN_SALT'));
 define('NONCE_SALT',       getenv('COURSES_NONCE_SALT'));
 
-
 /** AWS S3 Uploads directory **/
 if ( isset( $_SERVER['COURSES_S3_UPLOADS_BUCKET'] ) ) {
   define('S3_UPLOADS_BUCKET', getenv('COURSES_S3_UPLOADS_BUCKET'));
+}
+if ( isset( $_SERVER['COURSES_S3_UPLOADS_BUCKET_URL'] ) ) {
+  define('S3_UPLOADS_BUCKET_URL', getenv('COURSES_S3_UPLOADS_BUCKET_URL'));
 }
 if ( isset( $_SERVER['COURSES_S3_UPLOADS_KEY'] ) ) {
   define('S3_UPLOADS_KEY', getenv('COURSES_S3_UPLOADS_KEY'));
@@ -45,7 +46,6 @@ if ( isset( $_SERVER['COURSES_S3_UPLOADS_REGION'] ) ) {
 }
 
 $table_prefix = 'wp_';
-
 
 define('WP_DEBUG', false );
 define('WP_DEBUG_LOG', true);
