@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "92ea7d9c2734a9b5d3fd327c38eea25b",
-    "content-hash": "d4eea39aa7df9076b8b4eb736cce3303",
+    "hash": "61162a3c0158b6a8493a11e9fe83922a",
+    "content-hash": "2af083fb06f1664d3a61cfc954130852",
     "packages": [
         {
             "name": "composer/installers",
@@ -302,10 +302,10 @@
         },
         {
             "name": "wordpress",
-            "version": "4.5.3",
+            "version": "4.6.1",
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/WordPress/WordPress/archive/4.5.3.zip",
+                "url": "https://github.com/WordPress/WordPress/archive/4.6.1.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -336,15 +336,15 @@
         },
         {
             "name": "wpackagist-plugin/ewww-image-optimizer",
-            "version": "2.9.3",
+            "version": "3.1.3",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/ewww-image-optimizer/",
-                "reference": "tags/2.9.3"
+                "reference": "tags/3.1.3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/ewww-image-optimizer.2.9.3.zip",
+                "url": "https://downloads.wordpress.org/plugin/ewww-image-optimizer.3.1.3.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -356,15 +356,15 @@
         },
         {
             "name": "wpackagist-plugin/google-apps-login",
-            "version": "2.9.7",
+            "version": "2.10.4",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/google-apps-login/",
-                "reference": "tags/2.9.7"
+                "reference": "tags/2.10.4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/google-apps-login.2.9.7.zip",
+                "url": "https://downloads.wordpress.org/plugin/google-apps-login.2.10.4.zip",
                 "reference": null,
                 "shasum": null
             },
