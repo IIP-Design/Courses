@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "61162a3c0158b6a8493a11e9fe83922a",
-    "content-hash": "2af083fb06f1664d3a61cfc954130852",
+    "hash": "b725e0d1a9c44dc80d74334d6a0a5441",
+    "content-hash": "d08d00e5c66f00072a4349bf8c4db6ba",
     "packages": [
         {
             "name": "composer/installers",
@@ -376,15 +376,15 @@
         },
         {
             "name": "wpackagist-plugin/rest-api",
-            "version": "2.0-beta14",
+            "version": "2.0-beta15",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/rest-api/",
-                "reference": "tags/2.0-beta14"
+                "reference": "tags/2.0-beta15"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/rest-api.2.0-beta14.zip",
+                "url": "https://downloads.wordpress.org/plugin/rest-api.2.0-beta15.zip",
                 "reference": null,
                 "shasum": null
             },
