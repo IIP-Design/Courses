@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "b725e0d1a9c44dc80d74334d6a0a5441",
-    "content-hash": "d08d00e5c66f00072a4349bf8c4db6ba",
+    "hash": "d2020d7f882c02b74ad2d0193f8c3067",
+    "content-hash": "b50021538be11867270015653b4d89ef",
     "packages": [
         {
             "name": "composer/installers",
@@ -179,11 +179,11 @@
         },
         {
             "name": "iip-design/america-wp-rest-api",
-            "version": "1.0.0",
+            "version": "1.0.1",
             "source": {
                 "type": "git",
                 "url": "git@github.com:IIP-Design/america-wp-rest-api.git",
-                "reference": "15b67700fb42197dc43f43d8fd1befca394de09f"
+                "reference": "ab061d6a80fb50a504ef1e49d34026f469e47fa9"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -196,7 +196,7 @@
                 }
             ],
             "description": "Creates a custom namespace and endpoints to extend the WP REST API as the America API.",
-            "time": "2016-10-31 19:49:02"
+            "time": "2016-11-05 19:03:31"
         },
         {
             "name": "iip-design/corona",
