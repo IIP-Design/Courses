@@ -47,7 +47,7 @@
         "fancyguy/webroot-installer": "1.1.0",
         "koodimonni/composer-dropin-installer": "1.0",
         "humanmade/s3-uploads": "dev-master",
-        "iip-design/america-wp-rest-api": "1.0.1",
+        "iip-design/america-wp-rest-api": "1.0.2",
         "iip-design/corona": "2.7.1",
         "iip-design/courses-custom-posts": "1.1.0",
         "usstatedept/wp-hide-login-form": "1.0.1",
