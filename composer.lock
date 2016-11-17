@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "32072a4cfef496d1cb537ada3645f79d",
-    "content-hash": "083a10e6b85e778ec6eea43f2cd3af0e",
+    "hash": "f2139a1be78854715481aba5c85b1761",
+    "content-hash": "3d34463adce75226ee83a5893025feba",
     "packages": [
         {
             "name": "composer/installers",
@@ -373,6 +373,26 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/google-apps-login/"
+        },
+        {
+            "name": "wpackagist-plugin/manual-image-crop",
+            "version": "1.12",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/manual-image-crop/",
+                "reference": "tags/1.12"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/manual-image-crop.1.12.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/manual-image-crop/"
         },
         {
             "name": "wpackagist-plugin/rest-api",
