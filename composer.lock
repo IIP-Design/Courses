@@ -222,7 +222,7 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:IIP-Design/courses-custom-posts.git",
-                "reference": "718a1a12ea158eb01a553f12f21be4dc447b9255"
+                "reference": "40971d8699503765f1d9344f7a8779c4545860ab"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -235,7 +235,7 @@
                 }
             ],
             "description": "A WordPress plugin that will create a custom post type to create courses.",
-            "time": "2016-12-09 19:40:13"
+            "time": "2017-01-06 19:40:23"
         },
         {
             "name": "koodimonni/composer-dropin-installer",
