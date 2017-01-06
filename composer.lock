@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "f2139a1be78854715481aba5c85b1761",
-    "content-hash": "3d34463adce75226ee83a5893025feba",
+    "hash": "b764ce51ed4fb2166db0fcb58996bf0f",
+    "content-hash": "2d7b4d9974e9c73b65e56c75a20e0527",
     "packages": [
         {
             "name": "composer/installers",
@@ -150,7 +150,7 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:humanmade/S3-Uploads.git",
-                "reference": "508239ba6afb1ee4191a6f61c6d0c1834aca9b21"
+                "reference": "8162f973a521b49b2320dc5da1e0ca751abe64c3"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -175,7 +175,7 @@
                 "issues": "https://github.com/humanmade/s3-uploads/issues",
                 "source": "https://github.com/humanmade/s3-uploads"
             },
-            "time": "2016-09-21 19:46:55"
+            "time": "2016-12-13 01:23:27"
         },
         {
             "name": "iip-design/america-wp-rest-api",
@@ -218,11 +218,11 @@
         },
         {
             "name": "iip-design/courses-custom-posts",
-            "version": "1.1.0",
+            "version": "1.2.0",
             "source": {
                 "type": "git",
                 "url": "git@github.com:IIP-Design/courses-custom-posts.git",
-                "reference": "dba1499c572fd885e1c597c50d1ec8830d9e9d2f"
+                "reference": "718a1a12ea158eb01a553f12f21be4dc447b9255"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -235,7 +235,7 @@
                 }
             ],
             "description": "A WordPress plugin that will create a custom post type to create courses.",
-            "time": "2016-10-31 19:46:57"
+            "time": "2016-12-09 19:40:13"
         },
         {
             "name": "koodimonni/composer-dropin-installer",
