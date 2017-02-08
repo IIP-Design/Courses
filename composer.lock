@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "b764ce51ed4fb2166db0fcb58996bf0f",
-    "content-hash": "2d7b4d9974e9c73b65e56c75a20e0527",
+    "hash": "a335b682eb0a9ff06b39aa033011a6aa",
+    "content-hash": "7e0e479c507d3294508ee5bdde7e07f0",
     "packages": [
         {
             "name": "composer/installers",
@@ -150,7 +150,7 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:humanmade/S3-Uploads.git",
-                "reference": "8162f973a521b49b2320dc5da1e0ca751abe64c3"
+                "reference": "713039ceb063b75db9249d18228e2bbed6c526ae"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -175,15 +175,15 @@
                 "issues": "https://github.com/humanmade/s3-uploads/issues",
                 "source": "https://github.com/humanmade/s3-uploads"
             },
-            "time": "2016-12-13 01:23:27"
+            "time": "2017-01-19 08:58:38"
         },
         {
             "name": "iip-design/america-wp-rest-api",
-            "version": "1.0.2",
+            "version": "1.1.0",
             "source": {
                 "type": "git",
                 "url": "git@github.com:IIP-Design/america-wp-rest-api.git",
-                "reference": "eba536e5d137a8887349885a45c51c90a18183d1"
+                "reference": "aba13bd0572984387a476cd90c07e3d91ddde179"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -196,7 +196,7 @@
                 }
             ],
             "description": "Creates a custom namespace and endpoints to extend the WP REST API as the America API.",
-            "time": "2016-11-17 21:56:01"
+            "time": "2017-02-08 15:18:02"
         },
         {
             "name": "iip-design/corona",
@@ -218,11 +218,11 @@
         },
         {
             "name": "iip-design/courses-custom-posts",
-            "version": "1.2.0",
+            "version": "1.3.0",
             "source": {
                 "type": "git",
                 "url": "git@github.com:IIP-Design/courses-custom-posts.git",
-                "reference": "40971d8699503765f1d9344f7a8779c4545860ab"
+                "reference": "6555e034e17cb88bea1097ff5cc5c9aae9b49065"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -235,7 +235,7 @@
                 }
             ],
             "description": "A WordPress plugin that will create a custom post type to create courses.",
-            "time": "2017-01-06 19:40:23"
+            "time": "2017-02-08 15:17:21"
         },
         {
             "name": "koodimonni/composer-dropin-installer",
