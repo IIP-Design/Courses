@@ -4,8 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "a335b682eb0a9ff06b39aa033011a6aa",
-    "content-hash": "7e0e479c507d3294508ee5bdde7e07f0",
+    "content-hash": "51b416c5a335da2249f04609482bda44",
     "packages": [
         {
             "name": "composer/installers",
@@ -100,7 +99,7 @@
                 "zend",
                 "zikula"
             ],
-            "time": "2015-02-18 17:17:01"
+            "time": "2015-02-18T17:17:01+00:00"
         },
         {
             "name": "fancyguy/webroot-installer",
@@ -142,7 +141,7 @@
             ],
             "description": "A composer installer for libraries that live in an application webroot.",
             "homepage": "http://fancyguy.github.com/webroot-installer/",
-            "time": "2013-03-15 17:51:14"
+            "time": "2013-03-15T17:51:14+00:00"
         },
         {
             "name": "humanmade/s3-uploads",
@@ -150,7 +149,7 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:humanmade/S3-Uploads.git",
-                "reference": "713039ceb063b75db9249d18228e2bbed6c526ae"
+                "reference": "ab1a3db66adc447a9abf009845f3ae82f93a99ba"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -175,7 +174,7 @@
                 "issues": "https://github.com/humanmade/s3-uploads/issues",
                 "source": "https://github.com/humanmade/s3-uploads"
             },
-            "time": "2017-01-19 08:58:38"
+            "time": "2017-03-09 01:20:38"
         },
         {
             "name": "iip-design/america-wp-rest-api",
@@ -196,7 +195,7 @@
                 }
             ],
             "description": "Creates a custom namespace and endpoints to extend the WP REST API as the America API.",
-            "time": "2017-02-08 15:18:02"
+            "time": "2017-02-08T15:18:02+00:00"
         },
         {
             "name": "iip-design/corona",
@@ -214,7 +213,7 @@
                 "MIT"
             ],
             "description": "A Wordpress base theme",
-            "time": "2016-08-15 17:02:53"
+            "time": "2016-08-15T17:02:53+00:00"
         },
         {
             "name": "iip-design/courses-custom-posts",
@@ -235,7 +234,28 @@
                 }
             ],
             "description": "A WordPress plugin that will create a custom post type to create courses.",
-            "time": "2017-02-08 15:17:21"
+            "time": "2017-02-08T15:17:21+00:00"
+        },
+        {
+            "name": "iip-design/wp-elasticsearch-feeder",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:IIP-Design/wp-elasticsearch-feeder.git",
+                "reference": "af6ab3a20f16b9c9d9dece01b33fc904c15e3a9a"
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "authors": [
+                {
+                    "name": "Office of Design, U.S. Department of State",
+                    "email": "orelusm@america.gov"
+                }
+            ],
+            "description": "Syncs content to ElasticSearch",
+            "time": "2017-03-21 13:57:36"
         },
         {
             "name": "koodimonni/composer-dropin-installer",
@@ -277,7 +297,7 @@
                 }
             ],
             "description": "Do what the fuck you want with your composer packages aka. Composer Dropin installer. Install packages or part of packages into custom paths without overwriting existing stuff.",
-            "time": "2015-06-11 14:15:20"
+            "time": "2015-06-11T14:15:20+00:00"
         },
         {
             "name": "usstatedept/wp-hide-login-form",
@@ -298,7 +318,7 @@
                 }
             ],
             "description": "A WordPress plugin to hide the login form on the login page when the Google Apps Login plugin is active.",
-            "time": "2015-12-16 16:18:36"
+            "time": "2015-12-16T16:18:36+00:00"
         },
         {
             "name": "wordpress",
@@ -440,7 +460,8 @@
     "minimum-stability": "stable",
     "stability-flags": {
         "humanmade/s3-uploads": 20,
-        "wpackagist-plugin/rest-api": 10
+        "wpackagist-plugin/rest-api": 10,
+        "iip-design/wp-elasticsearch-feeder": 20
     },
     "prefer-stable": false,
     "prefer-lowest": false,
