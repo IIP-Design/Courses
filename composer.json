@@ -59,6 +59,7 @@
         "wpackagist-plugin/manual-image-crop": "1.12",
         "wpackagist-plugin/google-apps-login": "2.10.4",
         "wpackagist-plugin/wordpress-mu-domain-mapping": "0.5.5.1",
+        "wpackagist-plugin/rest-api": "2.0-beta15",
         "iip-design/wp-elasticsearch-feeder": "dev-master",
         "wpackagist-plugin/cmb2": "2.2.5.3"
         },
