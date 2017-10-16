@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "0f8819b071daeed3de3f0b999005b269",
+    "content-hash": "7c13dfdcc1325754b4c5f17d1daf7205",
     "packages": [
         {
             "name": "aws/aws-sdk-php",
@@ -440,11 +440,11 @@
         },
         {
             "name": "iip-design/america-wp-rest-api",
-            "version": "1.1.0",
+            "version": "1.1.1",
             "source": {
                 "type": "git",
                 "url": "git@github.com:IIP-Design/america-wp-rest-api.git",
-                "reference": "aba13bd0572984387a476cd90c07e3d91ddde179"
+                "reference": "f5797d99aadc6c7bf49df1a5ca7679fa2f6ca1f2"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -457,7 +457,7 @@
                 }
             ],
             "description": "Creates a custom namespace and endpoints to extend the WP REST API as the America API.",
-            "time": "2017-02-08T15:18:02+00:00"
+            "time": "2017-10-16T15:31:00+00:00"
         },
         {
             "name": "iip-design/corona",
@@ -783,26 +783,6 @@
             "homepage": "https://wordpress.org/plugins/manual-image-crop/"
         },
         {
-            "name": "wpackagist-plugin/rest-api",
-            "version": "2.0-beta15",
-            "source": {
-                "type": "svn",
-                "url": "https://plugins.svn.wordpress.org/rest-api/",
-                "reference": "tags/2.0-beta15"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/rest-api.2.0-beta15.zip",
-                "reference": null,
-                "shasum": null
-            },
-            "require": {
-                "composer/installers": "~1.0"
-            },
-            "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/rest-api/"
-        },
-        {
             "name": "wpackagist-plugin/wordpress-mu-domain-mapping",
             "version": "0.5.5.1",
             "source": {
@@ -828,7 +808,6 @@
     "minimum-stability": "stable",
     "stability-flags": {
         "humanmade/s3-uploads": 20,
-        "wpackagist-plugin/rest-api": 10,
         "iip-design/wp-elasticsearch-feeder": 20
     },
     "prefer-stable": false,
