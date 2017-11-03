@@ -4,20 +4,20 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "7c13dfdcc1325754b4c5f17d1daf7205",
+    "content-hash": "1f8608037640d1cc3fc324dd63d9741c",
     "packages": [
         {
             "name": "aws/aws-sdk-php",
-            "version": "3.36.26",
+            "version": "3.36.36",
             "source": {
                 "type": "git",
                 "url": "https://github.com/aws/aws-sdk-php.git",
-                "reference": "96f2c1525d3fd17a0802329c309c76c01a78aa51"
+                "reference": "26ed9d51a11ca88ce919d7b0884b4b47232997b4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/96f2c1525d3fd17a0802329c309c76c01a78aa51",
-                "reference": "96f2c1525d3fd17a0802329c309c76c01a78aa51",
+                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/26ed9d51a11ca88ce919d7b0884b4b47232997b4",
+                "reference": "26ed9d51a11ca88ce919d7b0884b4b47232997b4",
                 "shasum": ""
             },
             "require": {
@@ -84,7 +84,7 @@
                 "s3",
                 "sdk"
             ],
-            "time": "2017-10-12T19:45:50+00:00"
+            "time": "2017-11-02T23:56:51+00:00"
         },
         {
             "name": "composer/installers",
@@ -479,11 +479,11 @@
         },
         {
             "name": "iip-design/courses-custom-posts",
-            "version": "1.3.5",
+            "version": "1.3.6",
             "source": {
                 "type": "git",
                 "url": "git@github.com:IIP-Design/courses-custom-posts.git",
-                "reference": "46df29f8a4a8769b93bf79de8a9058923cc7b2c8"
+                "reference": "e342ef1ca326d1ed956fff018e86611c46d08793"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -496,7 +496,7 @@
                 }
             ],
             "description": "A WordPress plugin that will create a custom post type to create courses.",
-            "time": "2017-10-16T14:26:17+00:00"
+            "time": "2017-11-02T21:24:50+00:00"
         },
         {
             "name": "iip-design/wp-elasticsearch-feeder",
@@ -504,7 +504,7 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:IIP-Design/wp-elasticsearch-feeder.git",
-                "reference": "a0e425178ea95771c05b96281b6aea1d5531c640"
+                "reference": "38ca05f72e3ada1a2b48b6d5e8fd2436880e9825"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -517,7 +517,7 @@
                 }
             ],
             "description": "Syncs content to ElasticSearch",
-            "time": "2017-10-04 17:27:20"
+            "time": "2017-11-02 13:28:15"
         },
         {
             "name": "koodimonni/composer-dropin-installer",
