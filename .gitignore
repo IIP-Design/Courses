@@ -13,6 +13,7 @@ wp-cli.local.yml
 
 # wordpress-mu-domain-mapping
 wp-content/sunrise.php
+wp-content/ewww
 
 # wordpress-query-monitor
 wp-content/db.php
