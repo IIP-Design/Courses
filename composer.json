@@ -5,10 +5,10 @@
       "package": {
         "name": "wordpress",
         "type": "webroot",
-        "version": "4.9.8",
+        "version": "4.9.9",
         "dist": {
           "type": "zip",
-          "url": "https://github.com/WordPress/WordPress/archive/4.9.8.zip"
+          "url": "https://github.com/WordPress/WordPress/archive/4.9.9.zip"
         },
         "require": {
           "fancyguy/webroot-installer": "1.1.0"
@@ -49,18 +49,18 @@
     }
   ],
   "require": {
-    "wordpress": "4.9.8",
+    "wordpress": "4.9.9",
     "fancyguy/webroot-installer": "1.1.0",
     "koodimonni/composer-dropin-installer": "*",
     "humanmade/s3-uploads": "dev-master",
-    "iip-design/corona": "2.12.0",
+    "iip-design/corona": "2.12.2",
     "iip-design/america-wp-rest-api": "1.1.1",
     "iip-design/cdp-video-post-type": "dev-develop",
     "iip-design/courses-custom-posts": "dev-develop",
     "iip-design/wp-elasticsearch-feeder": "dev-develop",
     "iip-design/wp-hide-login-form": "1.0.1",
-    "wpackagist-plugin/cmb2": "2.4.2",
-    "wpackagist-plugin/ewww-image-optimizer": "4.3.1",
+    "wpackagist-plugin/cmb2": "2.5.1",
+    "wpackagist-plugin/ewww-image-optimizer": "4.5.3",
     "wpackagist-plugin/google-apps-login": "3.2",
     "wpackagist-plugin/manual-image-crop": "1.12",
     "wpackagist-plugin/wordpress-mu-domain-mapping": "0.5.5.1"
