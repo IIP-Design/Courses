@@ -57,7 +57,7 @@
     "iip-design/america-wp-rest-api": "1.1.1",
     "iip-design/cdp-video-post-type": "dev-master",
     "iip-design/courses-custom-posts": "dev-master",
-    "iip-design/wp-elasticsearch-feeder": "dev-master",
+    "iip-design/wp-elasticsearch-feeder": "2.4.1",
     "iip-design/wp-hide-login-form": "1.0.1",
     "wpackagist-plugin/cmb2": "2.5.1",
     "wpackagist-plugin/ewww-image-optimizer": "4.5.3",
