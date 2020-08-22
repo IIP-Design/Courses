@@ -58,7 +58,7 @@
     "iip-design/cdp-video-post-type": "2.0.2",
     "iip-design/courses-custom-posts": "2.0.1",
     "iip-design/wp-elasticsearch-feeder": "2.5.0",
-    "iip-design/wp-hide-login-form": "1.0.1",
+    "iip-design/wp-hide-login-form": "v1.1.0",
     "wpackagist-plugin/cmb2": "2.5.1",
     "wpackagist-plugin/ewww-image-optimizer": "4.5.3",
     "wpackagist-plugin/google-apps-login": "3.2",
