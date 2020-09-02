@@ -54,7 +54,7 @@
     "koodimonni/composer-dropin-installer": "*",
     "humanmade/s3-uploads": "2.2.2",
     "iip-design/corona": "2.12.3",
-    "iip-design/america-wp-rest-api": "1.1.1",
+    "iip-design/america-wp-rest-api": "1.1.2",
     "iip-design/cdp-video-post-type": "2.0.3",
     "iip-design/courses-custom-posts": "2.1.0",
     "iip-design/wp-elasticsearch-feeder": "2.5.0",

@@ -4,20 +4,20 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "5e57a59d013f1af795e7a325d8c95d66",
+    "content-hash": "2f4ef714263fb86e52a2be484ec70b5e",
     "packages": [
         {
             "name": "aws/aws-sdk-php",
-            "version": "3.150.2",
+            "version": "3.151.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/aws/aws-sdk-php.git",
-                "reference": "1aef7e270f15347df82279f05d85f551f85c8b87"
+                "reference": "08d8e5540bdef23127fec4787270d9d12ccc8117"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/1aef7e270f15347df82279f05d85f551f85c8b87",
-                "reference": "1aef7e270f15347df82279f05d85f551f85c8b87",
+                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/08d8e5540bdef23127fec4787270d9d12ccc8117",
+                "reference": "08d8e5540bdef23127fec4787270d9d12ccc8117",
                 "shasum": ""
             },
             "require": {
@@ -89,7 +89,7 @@
                 "s3",
                 "sdk"
             ],
-            "time": "2020-08-20T18:12:35+00:00"
+            "time": "2020-09-01T18:17:03+00:00"
         },
         {
             "name": "cmb2/cmb2",
@@ -506,11 +506,11 @@
         },
         {
             "name": "iip-design/america-wp-rest-api",
-            "version": "1.1.1",
+            "version": "1.1.2",
             "source": {
                 "type": "git",
                 "url": "git@github.com:IIP-Design/america-wp-rest-api.git",
-                "reference": "f5797d99aadc6c7bf49df1a5ca7679fa2f6ca1f2"
+                "reference": "a0490c1328bec84660cf3745bb4385af5a0cee2c"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -523,7 +523,7 @@
                 }
             ],
             "description": "Creates a custom namespace and endpoints to extend the WP REST API as the America API.",
-            "time": "2017-10-16T15:31:00+00:00"
+            "time": "2020-09-02T15:46:58+00:00"
         },
         {
             "name": "iip-design/cdp-video-post-type",
