@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "2f4ef714263fb86e52a2be484ec70b5e",
+    "content-hash": "ddd9aa42ee31ff7c9e51ddee606904c0",
     "packages": [
         {
             "name": "aws/aws-sdk-php",
@@ -1200,10 +1200,10 @@
         },
         {
             "name": "wordpress/wordpress",
-            "version": "5.5",
+            "version": "5.5.1",
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/WordPress/WordPress/archive/5.5.zip"
+                "url": "https://github.com/WordPress/WordPress/archive/5.5.1.zip"
             },
             "require": {
                 "fancyguy/webroot-installer": "1.1.0"
